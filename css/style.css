@@ -484,3 +484,37 @@ div {
   cursor:pointer;
   color: #333333;
 }
+
+.big-background {
+  padding: 11em 0;
+  height: 45.938rem;
+  background-image: url('../images/first-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  text-align: center;
+  overflow: auto;
+  color: white;
+}
+
+.learn-more {
+  width: 150px;
+  height: 60px;
+  background-color: orange;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.learn-more:hover {
+  background-color: DarkOrange;
+}
+
+.learn-more p {
+  font-size: 1.2em;
+}
+
+h1 {
+  line-height: 50%;
+  font-size: 3em;
+}
